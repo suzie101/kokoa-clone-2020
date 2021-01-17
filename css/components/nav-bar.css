@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: #2b212a;
   padding: 30px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -63,4 +63,7 @@
 }
 .nav__btn:last-child {
   animation-delay: 0.8s;
+}
+.nav__btn i {
+  color: white;
 }

@@ -8,7 +8,8 @@
   top: 20px;
   width: 100%;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #243342;
+  color: white;
 }
 .screen-header__title {
   font-size: 32px;

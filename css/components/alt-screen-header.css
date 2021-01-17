@@ -7,7 +7,7 @@
   justify-content: center;
   width: 100%;
   box-sizing: border-box;
-  background-color: white;
+  background-color: var(--yellow);
 }
 
 .alt-header__title {
