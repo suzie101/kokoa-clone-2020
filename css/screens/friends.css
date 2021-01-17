@@ -51,7 +51,22 @@
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
   background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
 }
 #splash-screen i {
   animation: notificationAnimation 2s ease-in-out infinite;
+}
+#splash-screen span {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.user-component__friends {
+  margin-bottom: 20px;
+}
+
+.user-component__column__music {
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 5px 10px;
 }
