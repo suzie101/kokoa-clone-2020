@@ -50,7 +50,10 @@
   font-size: 122px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1s;
-  background-color: var(--yellow);
+  background-image: url("https://images.unsplash.com/photo-1531263348817-2a52ea675d96?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=636&q=80");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
 }
