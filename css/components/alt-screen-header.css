@@ -35,6 +35,10 @@
 
 .alt-header__column .fa-angle-left {
   margin-left: 25px;
+  transition: all 0.2s ease-in-out;
+}
+.alt-header__column .fa-angle-left:hover {
+  color: #e86e4a;
 }
 .alt-header__column .fa-search {
   margin-right: 25px;

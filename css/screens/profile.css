@@ -1,0 +1,90 @@
+.profile-body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-attachment: fixed;
+}
+
+.profile-body .status-bar,
+.profile-body .screen-header {
+  background-color: transparent;
+}
+
+.profile0-body {
+  background-image: url("https://www.morrisonhotelgallery.com/images/big/CHB03.jpg");
+}
+.profile1-body {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5ab13677e749404673aac909/1523827432461-8AH5LCIFGRUE9MJP7DYY/ke17ZwdGBToddI8pDm48kAgCIx0kITnuTiNaR4WDqFB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UZePn29IglJtnfGtoVLZskhSN4pfw7VEE3Lppx1sJkbH9Svai7KKPqKISdRj9-5LpA/TomMisch8.jpg");
+}
+.profile2-body {
+  background-image: url("https://m.media-amazon.com/images/M/MV5BYzNkMzRiODUtNmFkNy00NzlmLTg4MGItZTdmZGZkN2ZlMzIyXkEyXkFqcGdeQXVyMTA2MDQ4Mg@@._V1_UY1200_CR538,0,630,1200_AL_.jpg");
+}
+.profile3-body {
+  background-image: url("https://ecmreviews.files.wordpress.com/2020/04/watt-17-front.jpg");
+}
+.profile4-body {
+  background-image: url("https://lastfm.freetls.fastly.net/i/u/770x0/f57b8492fe3e408fc021bb5fbaa2bee1.webp#f57b8492fe3e408fc021bb5fbaa2bee1");
+}
+.profile-body .screen-header .fa-times {
+  transition: all 0.3s ease-in-out;
+}
+.profile-body .screen-header .fa-times:hover {
+  color: #e86e4a;
+}
+.main-profile {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-box__img {
+  width: 90px;
+  height: 90px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.profile-nav {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: var(--main-border);
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-nav__i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.profile-nav__i span {
+  margin-top: 10px;
+}
+
+.profile-nav__i:hover {
+  color: #e86e4a;
+}
+
+.profile-music-box {
+  margin-bottom: 340px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 40%;
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(117, 115, 115, 0.5);
+}
+
+.profile-music-box:hover {
+  color: #e86e4a;
+  background-color: rgba(33, 49, 65, 0.1);
+}

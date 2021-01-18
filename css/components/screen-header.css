@@ -39,3 +39,11 @@
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }
+
+.screen-header i {
+  transition: all 0.1s ease-in-out;
+}
+
+.screen-header i:hover {
+  color: #e86e4a;
+}

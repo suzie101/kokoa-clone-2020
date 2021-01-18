@@ -28,7 +28,7 @@
 
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   padding: 10px;
   border-radius: 20px;
 }
@@ -37,7 +37,7 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border: 3px solid rgb(232, 110, 74);
 }
 
 #login-form input[type="submit"] {

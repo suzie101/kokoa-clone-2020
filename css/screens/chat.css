@@ -26,6 +26,9 @@
     opacity: 1;
   }
 }
+.alt-header__chat {
+  font-size: 20px;
+}
 .main-chat {
   margin-top: 180px;
   display: flex;
