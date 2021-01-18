@@ -25,12 +25,7 @@
 .profile4-body {
   background-image: url("https://lastfm.freetls.fastly.net/i/u/770x0/f57b8492fe3e408fc021bb5fbaa2bee1.webp#f57b8492fe3e408fc021bb5fbaa2bee1");
 }
-.profile-body .screen-header .fa-times {
-  transition: all 0.3s ease-in-out;
-}
-.profile-body .screen-header .fa-times:hover {
-  color: #e86e4a;
-}
+
 .main-profile {
   position: fixed;
   width: 100%;
@@ -75,7 +70,8 @@
 }
 
 .profile-music-box {
-  margin-bottom: 500px;
+  position: fixed;
+  top: 100px;
   padding: 5px;
   border-radius: 10px;
   border: 1px solid white;
