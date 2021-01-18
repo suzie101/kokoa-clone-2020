@@ -37,6 +37,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.2s ease-in-out;
+  width: 100px;
+}
+.more-suggestions__icon:hover i {
+  color: #e86e4a;
+  background-color: rgba(33, 49, 65, 0.1);
 }
 
 .more-suggestions__icon-image {

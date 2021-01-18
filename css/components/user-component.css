@@ -8,7 +8,7 @@
 }
 
 .user-component:hover {
-  background-color: rgba(33, 49, 65, 0.1);
+  background-color: rgba(155, 187, 216, 0.1);
   color: #e86e4a;
 }
 .user-component__column:first-child {

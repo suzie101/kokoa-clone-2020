@@ -7,8 +7,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.2s ease-in-out;
 }
-
+.icon-row__icon:hover {
+  color: #e86e4a;
+  background-color: rgba(33, 49, 65, 0.1);
+}
 .icon-row__icon i {
   font-size: 35px;
 }
