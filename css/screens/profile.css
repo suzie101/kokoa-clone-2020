@@ -1,7 +1,7 @@
 .profile-body {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: bottom;
   background-attachment: fixed;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .profile-music-box {
-  margin-bottom: 340px;
+  margin-bottom: 500px;
   padding: 5px;
   border-radius: 10px;
   border: 1px solid white;
